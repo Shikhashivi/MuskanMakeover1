@@ -30,12 +30,7 @@ const Home = () => {
 
 
 
-                    <a
-                        href="/contact"
-                        className="inline-block bg-[#b88e8e] ml-17 z-50 text-white font-semibold px-6 py-3 rounded-full shadow hover:bg-[#FFBCD9] hover:text-black transition duration-300"
-                    >
-                        Book Appointment
-                    </a>
+                   
                 </div>
 
                 {/* Right Side - Image */}

@@ -61,7 +61,7 @@ const About = () => {
                     </ul>
                     <div className="mt-10 text-center">
                         <a
-                            href="/services" // Replace with your actual portfolio link
+                            href="/portfolio" // Replace with your actual portfolio link
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-block bg-[#ad1457] text-white text-lg font-semibold px-8 py-3 rounded-full shadow-lg hover:bg-[#880e4f] transition-all duration-300"
