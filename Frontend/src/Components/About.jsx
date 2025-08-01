@@ -2,6 +2,7 @@ import React from 'react';
 import AboutImage from '../assets/about.jpg'; // Use your actual image path
 import Testimonials from './Testimonials';
 import BrandScroller from './Brand'; // Assuming you have a Brand component for scrolling logos
+import {Link} from 'react-router-dom'; // Adjust the import based on your routing setup
 
 
 const About = () => {
@@ -60,15 +61,16 @@ const About = () => {
                         </li>
                     </ul>
                     <div className="mt-10 text-center">
-                        <a
-                            href="/portfolio" // Replace with your actual portfolio link
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-block bg-[#ad1457] text-white text-lg font-semibold px-8 py-3 rounded-full shadow-lg hover:bg-[#880e4f] transition-all duration-300"
-                            style={{ fontFamily: "'Pacifico', cursive" }}
-                        >
-                            My Services 💄
-                        </a>
+
+                        <Link to={"/services"}>
+                            <button
+                                className="inline-block bg-[#ad1457] text-white text-lg font-semibold px-8 py-3 rounded-full shadow-lg hover:bg-[#880e4f] transition-all duration-300"
+                                style={{ fontFamily: "'Pacifico', cursive" }}
+                            >
+                                My Services 💄
+                            </button>
+                        </Link>
+
                     </div>
 
 
